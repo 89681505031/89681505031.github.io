@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="ru" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Алмаз Софт — инди-студия из Якутии</title>
+  <meta name="description" content="Алмаз Софт — независимая игровая студия из Якутии. Делаем игры на движке Godot: тактический шутер «Зона Эвакуации» для Android и survival «Выживший» для Windows.">
+  <meta name="theme-color" content="#011536">
+  <meta name="color-scheme" content="dark">
+
+  <!-- Open Graph. После публикации замените относительные пути на абсолютные (https://ваш-домен/...) -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:site_name" content="Алмаз Софт">
+  <meta property="og:title" content="Алмаз Софт — инди-студия из Якутии">
+  <meta property="og:description" content="Независимая игровая студия из Якутии. Игры на движке Godot: «Зона Эвакуации» и «Выживший».">
+  <meta property="og:image" content="assets/img/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Логотип Алмаз Софт: алмаз в кодовых скобках и северная звезда">
+  <!-- <meta property="og:url" content="https://ВАШ-ДОМЕН/"> -->
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" href="favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="preload" href="assets/fonts/onest-var.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.remove("no-js");</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к содержимому</a>
+
+  <header class="site-header" id="top">
+    <div class="container site-header__inner">
+      <a class="brand" href="#top" aria-label="Алмаз Софт — в начало страницы">
+        <img src="assets/img/icon-96.webp" width="40" height="40" alt="">
+        <span>Алмаз Софт</span>
+      </a>
+      <button class="burger" type="button" aria-controls="site-nav" aria-expanded="false" aria-label="Открыть меню">
+        <span class="burger__bar"></span><span class="burger__bar"></span><span class="burger__bar"></span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Основная навигация">
+        <ul>
+          <li><a href="#about">О студии</a></li>
+          <li><a href="#games">Игры</a></li>
+          <li><a href="#team">Команда</a></li>
+          <li><a href="#contacts">Контакты</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ============ HERO ============ -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero__sky" aria-hidden="true"></div>
+      <div class="container hero__inner">
+        <img class="hero__logo" src="assets/img/logo-640.webp" srcset="assets/img/logo-360.webp 360w, assets/img/logo-640.webp 640w" sizes="(min-width: 900px) 420px, 72vw" width="640" height="640" alt="Логотип Алмаз Софт: голубой алмаз в кодовых скобках и северная звезда" fetchpriority="high">
+        <div class="hero__text">
+          <p class="eyebrow">Независимая игровая студия</p>
+          <h1 id="hero-title">Алмаз Софт</h1>
+          <p class="hero__tagline">Инди-студия из Якутии. Делаем игры на&nbsp;Godot — с&nbsp;характером, гранёные как алмаз.</p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#games">Наши игры</a>
+            <a class="btn btn--ghost" href="#contacts">Контакты</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ О СТУДИИ ============ -->
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="container about">
+        <div>
+          <p class="eyebrow">О студии</p>
+          <h2 id="about-title">Игры с&nbsp;севера</h2>
+          <p class="lead">«Алмаз Софт» — независимая игровая студия из Якутии. Основатель и&nbsp;владелец студии — <strong>Алекс Пименов</strong>.</p>
+          <p>Мы делаем игры на открытом движке <strong>Godot Engine</strong>: от&nbsp;мобильного тактического шутера до&nbsp;хардкорного выживания на&nbsp;ПК. Небольшая команда, быстрые итерации и&nbsp;внимание к&nbsp;деталям — ну и&nbsp;немного якутского холода в&nbsp;характере.</p>
+        </div>
+        <ul class="facts" aria-label="Коротко о студии">
+          <li class="fact"><span class="fact__label">Откуда</span><span class="fact__value">Якутия</span></li>
+          <li class="fact"><span class="fact__label">Движок</span><span class="fact__value">Godot Engine</span></li>
+          <li class="fact"><span class="fact__label">Платформы</span><span class="fact__value">Android и&nbsp;Windows</span></li>
+          <li class="fact"><span class="fact__label">Языки</span><span class="fact__value">Русский, скоро — саха тыла</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ ИГРЫ ============ -->
+    <section class="section section--alt" id="games" aria-labelledby="games-title">
+      <div class="container">
+        <p class="eyebrow">Игры</p>
+        <h2 id="games-title">Над чем мы работаем</h2>
+
+        <!-- ====== Зона Эвакуации ====== -->
+        <article class="game" id="zona" aria-labelledby="zona-title">
+          <header class="game__head">
+            <img class="game__icon" src="assets/img/zona-icon-256.webp" width="96" height="96" alt="Иконка игры «Зона Эвакуации»" loading="lazy" decoding="async">
+            <div class="game__titles">
+              <div class="game__badges">
+                <span class="badge badge--status">В разработке</span>
+                <span class="badge">Android</span>
+                <span class="badge">Godot</span>
+              </div>
+              <h3 id="zona-title">Зона Эвакуации</h3>
+              <p class="game__genre">Тактический extraction-шутер</p>
+            </div>
+          </header>
+          <div class="game__body">
+            <p class="game__desc">Высаживайтесь в порт, собирайте добычу и&nbsp;успейте выбраться живым. Двадцать минут на рейд, три точки эвакуации и&nbsp;ИИ-боты, которые не&nbsp;прощают ошибок.</p>
+            <ul class="features">
+              <li>Рейды на карте порта по&nbsp;20&nbsp;минут, три точки эвакуации</li>
+              <li>Лут и&nbsp;схрон, торговец за&nbsp;рубли</li>
+              <li>ИИ-боты</li>
+              <li>AK-74M, MP5 и&nbsp;пистолет</li>
+              <li>Баллистика пуль, броня и&nbsp;зоны попаданий</li>
+              <li>Рэгдолл-физика и&nbsp;взрывающиеся бочки</li>
+              <li>Мультиплеер по&nbsp;локальной сети Wi‑Fi до&nbsp;6&nbsp;игроков</li>
+              <li>Русский язык; перевод на&nbsp;якутский — в&nbsp;работе</li>
+            </ul>
+          </div>
+          <ul class="gallery" aria-label="Скриншоты игры «Зона Эвакуации»" tabindex="0">
+            <!-- Галерея генерируется скриптом tools/build_assets.py — правьте список там -->
+            <!-- GALLERY:zona:START -->
+            <li class="shot">
+              <a class="shot__link" href="assets/shots/zona/clean_19_dusk_port_crane.webp" data-gallery="zona" data-caption="Рейд на карте порта: портовый кран на закате">
+                <img src="assets/shots/zona/clean_19_dusk_port_crane-640.webp" srcset="assets/shots/zona/clean_19_dusk_port_crane-640.webp 640w, assets/shots/zona/clean_19_dusk_port_crane.webp 1280w"
+                     sizes="(min-width: 1100px) 340px, (min-width: 640px) 45vw, 84vw"
+                     width="640" height="360" loading="lazy" decoding="async" alt="Рейд на карте порта: портовый кран на закате">
+              </a>
+            </li>
+            <li class="shot">
+              <a class="shot__link" href="assets/shots/zona/09_combat_bots_firefight.webp" data-gallery="zona" data-caption="Перестрелка с ИИ-ботами на территории порта">
+                <img src="assets/shots/zona/09_combat_bots_firefight-640.webp" srcset="assets/shots/zona/09_combat_bots_firefight-640.webp 640w, assets/shots/zona/09_combat_bots_firefight.webp 1280w"
+                     sizes="(min-width: 1100px) 340px, (min-width: 640px) 45vw, 84vw"
+                     width="640" height="360" loading="lazy" decoding="async" alt="Перестрелка с ИИ-ботами на территории порта">
+              </a>
+            </li>
+            <li class="shot">
+              <a class="shot__link" href="assets/shots/zona/clean_10_ads_aiming.webp" data-gallery="zona" data-caption="Прицеливание с AK-74M">
+                <img src="assets/shots/zona/clean_10_ads_aiming-640.webp" srcset="assets/shots/zona/clean_10_ads_aiming-640.webp 640w, assets/shots/zona/clean_10_ads_aiming.webp 1280w"
+                     sizes="(min-width: 1100px) 340px, (min-width: 640px) 45vw, 84vw"
+                     width="640" height="360" loading="lazy" decoding="async" alt="Прицеливание с AK-74M">
+              </a>
+            </li>
+            <li class="shot">
+              <a class="shot__link" href="assets/shots/zona/16_extraction_progress.webp" data-gallery="zona" data-caption="Эвакуация: игрок в точке выхода, идёт отсчёт">
+                <img src="assets/shots/zona/16_extraction_progress-640.webp" srcset="assets/shots/zona/16_extraction_progress-640.webp 640w, assets/shots/zona/16_extraction_progress.webp 1280w"
+                     sizes="(min-width: 1100px) 340px, (min-width: 640px) 45vw, 84vw"
+                     width="640" height="360" loading="lazy" decoding="async" alt="Эвакуация: игрок в точке выхода, идёт отсчёт">
+              </a>
+            </li>
+            <li class="shot">
+              <a class="shot__link" href="assets/shots/zona/04_mp_lobby_host.webp" data-gallery="zona" data-caption="Лобби мультиплеера по локальной сети Wi‑Fi">
+                <img src="assets/shots/zona/04_mp_lobby_host-640.webp" srcset="assets/shots/zona/04_mp_lobby_host-640.webp 640w, assets/shots/zona/04_mp_lobby_host.webp 1280w"
+                     sizes="(min-width: 1100px) 340px, (min-width: 640px) 45vw, 84vw"
+                     width="640" height="360" loading="lazy" decoding="async" alt="Лобби мультиплеера по локальной сети Wi‑Fi">
+              </a>
+            </li>
+            <li class="shot">
+              <a class="shot__link" href="assets/shots/zona/02_stash_loadout_trader.webp" data-gallery="zona" data-caption="Схрон, снаряжение и торговец за рубли">
+                <img src="assets/shots/zona/02_stash_loadout_trader-640.webp" srcset="assets/shots/zona/02_stash_loadout_trader-640.webp 640w, assets/shots/zona/02_stash_loadout_trader.webp 1280w"
+                     sizes="(min-width: 1100px) 340px, (min-width: 640px) 45vw, 84vw"
+                     width="640" height="360" loading="lazy" decoding="async" alt="Схрон, снаряжение и торговец за рубли">
+              </a>
+            </li>
+            <!-- GALLERY:zona:END -->
+          </ul>
+          <div class="game__cta">
+            <button class="btn btn--disabled" type="button" disabled>Скоро</button>
+            <!-- Когда появится ссылка (магазин/страница игры), замените кнопку выше на:
+                 <a class="btn btn--primary" href="ССЫЛКА">Скачать</a> -->
+          </div>
+        </article>
+
+        <!-- ====== Выживший ====== -->
+        <article class="game" id="survivor" aria-labelledby="survivor-title">
+          <header class="game__head">
+            <div class="game__icon game__icon--placeholder" aria-hidden="true">В</div>
+            <div class="game__titles">
+              <div class="game__badges">
+                <span class="badge badge--status">В разработке</span>
+                <span class="badge">Windows</span>
+                <span class="badge">Godot</span>
+              </div>
+              <h3 id="survivor-title">Выживший</h3>
+              <p class="game__genre">Выживание в&nbsp;открытом мире в&nbsp;духе DayZ</p>
+            </div>
+          </header>
+          <div class="game__body">
+            <p class="game__desc">Открытая карта 800×800&nbsp;м, пять деревень и&nbsp;одна задача — продержаться. Следите за&nbsp;голодом и&nbsp;жаждой, ищите припасы в&nbsp;домах и&nbsp;не&nbsp;попадайтесь зомби после заката.</p>
+            <ul class="features">
+              <li>Открытая карта 800×800&nbsp;м с&nbsp;пятью деревнями</li>
+              <li>Дома, в&nbsp;которые можно зайти</li>
+              <li>Голод, жажда, выносливость и&nbsp;здоровье</li>
+              <li>Кровотечение и&nbsp;перевязка</li>
+              <li>Лут: еда, вода, бинты, топор, труба, пистолет Макарова, охотничье ружьё</li>
+              <li>Зомби</li>
+              <li>Смена дня и&nbsp;ночи, фонарик</li>
+            </ul>
+          </div>
+          <ul class="gallery gallery--four" aria-label="Скриншоты игры «Выживший»" tabindex="0">
+            <!-- Галерея генерируется скриптом tools/build_assets.py — правьте список там -->
+            <!-- GALLERY:survivor:START -->
+            <li class="shot">
+              <a class="shot__link" href="assets/shots/survivor/01_world_overview.webp" data-gallery="survivor" data-caption="Открытый мир: дорога к деревне Берёзовка">
+                <img src="assets/shots/survivor/01_world_overview-640.webp" srcset="assets/shots/survivor/01_world_overview-640.webp 640w, assets/shots/survivor/01_world_overview.webp 1280w"
+                     sizes="(min-width: 1100px) 340px, (min-width: 640px) 45vw, 84vw"
+                     width="640" height="360" loading="lazy" decoding="async" alt="Открытый мир: дорога к деревне Берёзовка">
+              </a>
+            </li>
+            <li class="shot">
+              <a class="shot__link" href="assets/shots/survivor/03_zombies.webp" data-gallery="survivor" data-caption="Зомби в деревне">
+                <img src="assets/shots/survivor/03_zombies-640.webp" srcset="assets/shots/survivor/03_zombies-640.webp 640w, assets/shots/survivor/03_zombies.webp 1280w"
+                     sizes="(min-width: 1100px) 340px, (min-width: 640px) 45vw, 84vw"
+                     width="640" height="360" loading="lazy" decoding="async" alt="Зомби в деревне">
+              </a>
+            </li>
+            <li class="shot">
+              <a class="shot__link" href="assets/shots/survivor/06_pistol_shot_dusk.webp" data-gallery="survivor" data-caption="Выстрел из пистолета Макарова в сумерках">
+                <img src="assets/shots/survivor/06_pistol_shot_dusk-640.webp" srcset="assets/shots/survivor/06_pistol_shot_dusk-640.webp 640w, assets/shots/survivor/06_pistol_shot_dusk.webp 1280w"
+                     sizes="(min-width: 1100px) 340px, (min-width: 640px) 45vw, 84vw"
+                     width="640" height="360" loading="lazy" decoding="async" alt="Выстрел из пистолета Макарова в сумерках">
+              </a>
+            </li>
+            <li class="shot">
+              <a class="shot__link" href="assets/shots/survivor/07_night_flashlight.webp" data-gallery="survivor" data-caption="Ночь: зомби в свете фонарика">
+                <img src="assets/shots/survivor/07_night_flashlight-640.webp" srcset="assets/shots/survivor/07_night_flashlight-640.webp 640w, assets/shots/survivor/07_night_flashlight.webp 1280w"
+                     sizes="(min-width: 1100px) 340px, (min-width: 640px) 45vw, 84vw"
+                     width="640" height="360" loading="lazy" decoding="async" alt="Ночь: зомби в свете фонарика">
+              </a>
+            </li>
+            <!-- GALLERY:survivor:END -->
+          </ul>
+          <div class="game__cta">
+            <button class="btn btn--disabled" type="button" disabled>Скоро</button>
+            <!-- Когда появится ссылка, замените кнопку выше на:
+                 <a class="btn btn--primary" href="ССЫЛКА">Скачать</a> -->
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ КОМАНДА ============ -->
+    <section class="section" id="team" aria-labelledby="team-title">
+      <div class="container">
+        <p class="eyebrow">Команда</p>
+        <h2 id="team-title">Кто делает игры</h2>
+
+        <div class="founder">
+          <div class="founder__mark" aria-hidden="true">АП</div>
+          <div>
+            <h3 class="founder__name">Алекс Пименов</h3>
+            <p class="founder__role">Основатель и&nbsp;владелец студии</p>
+          </div>
+        </div>
+
+        <h3 class="subhead">Направления работы студии</h3>
+        <ul class="roles">
+          <li class="role"><h4>Разработка</h4><p>Геймплей, системы и&nbsp;код на&nbsp;Godot.</p></li>
+          <li class="role"><h4>Художник</h4><p>Визуальный стиль, модели, текстуры и&nbsp;интерфейс.</p></li>
+          <li class="role"><h4>Тестирование</h4><p>Поиск багов, баланс и&nbsp;проверка на&nbsp;реальных устройствах.</p></li>
+          <li class="role"><h4>Издание</h4><p>Подготовка релизов и&nbsp;работа с&nbsp;площадками.</p></li>
+          <li class="role"><h4>Маркетинг</h4><p>Рассказываем об&nbsp;играх: трейлеры, анонсы, соцсети.</p></li>
+          <li class="role"><h4>Сообщество</h4><p>Общение с&nbsp;игроками и&nbsp;сбор обратной связи.</p></li>
+          <li class="role"><h4>Финансы</h4><p>Бюджет, учёт и&nbsp;планирование ресурсов студии.</p></li>
+          <li class="role"><h4>Локализация на&nbsp;якутский</h4><p>Перевод на&nbsp;саха тыла с&nbsp;буквами <span class="yakut">Ҥҥ Ҕҕ Өө Һһ Үү</span>.</p></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ КОНТАКТЫ ============ -->
+    <section class="section section--alt" id="contacts" aria-labelledby="contacts-title">
+      <div class="container">
+        <p class="eyebrow">Контакты</p>
+        <h2 id="contacts-title">Связаться с&nbsp;нами</h2>
+        <p class="lead">Официальные каналы студии скоро появятся здесь.</p>
+        <ul class="contacts">
+          <li class="contact">
+            <span class="contact__label">Email</span>
+            <!-- EMAIL: замените строку ниже на
+                 <a class="contact__value" href="mailto:АДРЕС">АДРЕС</a> -->
+            <span class="contact__value contact__value--soon">Скоро</span>
+          </li>
+          <li class="contact">
+            <span class="contact__label">Telegram</span>
+            <!-- TELEGRAM: замените строку ниже на
+                 <a class="contact__value" href="https://t.me/ИМЯ_КАНАЛА" rel="noopener">@ИМЯ_КАНАЛА</a> -->
+            <span class="contact__value contact__value--soon">Скоро</span>
+          </li>
+          <li class="contact">
+            <span class="contact__label">ВКонтакте</span>
+            <!-- VK: замените строку ниже на
+                 <a class="contact__value" href="https://vk.com/ИМЯ_ГРУППЫ" rel="noopener">vk.com/ИМЯ_ГРУППЫ</a> -->
+            <span class="contact__value contact__value--soon">Скоро</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <p class="site-footer__brand"><img src="assets/img/icon-96.webp" width="28" height="28" alt="" loading="lazy">© 2026 Алмаз Софт</p>
+      <p class="site-footer__credits">В играх используются текстуры <a href="https://polyhaven.com/" rel="noopener">Poly Haven</a> (CC0) и&nbsp;модели <a href="https://quaternius.com/" rel="noopener">Quaternius</a> (CC0). Шрифт Onest — SIL Open Font License&nbsp;1.1.</p>
+    </div>
+  </footer>
+
+  <!-- Лайтбокс для скриншотов -->
+  <dialog class="lightbox" id="lightbox" aria-label="Просмотр скриншота">
+    <figure class="lightbox__figure">
+      <figcaption class="lightbox__caption"></figcaption>
+    </figure>
+    <button class="lightbox__btn lightbox__close" type="button" aria-label="Закрыть">×</button>
+    <button class="lightbox__btn lightbox__prev" type="button" aria-label="Предыдущий скриншот">‹</button>
+    <button class="lightbox__btn lightbox__next" type="button" aria-label="Следующий скриншот">›</button>
+  </dialog>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
